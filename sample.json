@@ -1,0 +1,542 @@
+{
+    "1": {
+        "S.No": "1",
+        "Student Name": "Abhishek Pal",
+        "Roll Number": "2014524",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "2": {
+        "S.No": "2",
+        "Student Name": "Akash Bhatt",
+        "Roll Number": "2015048",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "3": {
+        "S.No": "3",
+        "Student Name": "Ankit Sharma",
+        "Roll Number": "2014569",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "4": {
+        "S.No": "4",
+        "Student Name": "Aryan Pathela",
+        "Roll Number": "2015058",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "5": {
+        "S.No": "5",
+        "Student Name": "Ayush Negi",
+        "Roll Number": "2015063",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "6": {
+        "S.No": "6",
+        "Student Name": "Daksh Choudhary",
+        "Roll Number": "2015498",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "7": {
+        "S.No": "7",
+        "Student Name": "Divay",
+        "Roll Number": "2015163",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Marketing Intern",
+        "": ""
+    },
+    "8": {
+        "S.No": "8",
+        "Student Name": "Gargi Aggarwal",
+        "Roll Number": "2014655",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "9": {
+        "S.No": "9",
+        "Student Name": "Keshav Aman",
+        "Roll Number": "2015246",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "10": {
+        "S.No": "10",
+        "Student Name": "Mayank Gambhir",
+        "Roll Number": "2014722",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "11": {
+        "S.No": "11",
+        "Student Name": "Praggya Singh",
+        "Roll Number": "2015530",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "12": {
+        "S.No": "12",
+        "Student Name": "Riya Chaudhary",
+        "Roll Number": "2015185",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "13": {
+        "S.No": "13",
+        "Student Name": "Sahibpreet Singh Saini",
+        "Roll Number": "19011534",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "14": {
+        "S.No": "14",
+        "Student Name": "Sameer Srivastava",
+        "Roll Number": "2014830",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "15": {
+        "S.No": "15",
+        "Student Name": "Satvik Jain",
+        "Roll Number": "2014840",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "16": {
+        "S.No": "16",
+        "Student Name": "Shivang Gupta",
+        "Roll Number": "2014858",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Marketing Intern",
+        "": ""
+    },
+    "17": {
+        "S.No": "17",
+        "Student Name": "Shubham Rawat",
+        "Roll Number": "2014874",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "18": {
+        "S.No": "18",
+        "Student Name": "Skimmy Gupta",
+        "Roll Number": "2014890",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "19": {
+        "S.No": "19",
+        "Student Name": "Sujal Agarwal",
+        "Roll Number": "2015555",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "20": {
+        "S.No": "20",
+        "Student Name": "Tanmay Anand",
+        "Roll Number": "2015197",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "21": {
+        "S.No": "21",
+        "Student Name": "Tejas Rai",
+        "Roll Number": "2014915",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "22": {
+        "S.No": "22",
+        "Student Name": "Ujjwal Sharma",
+        "Roll Number": "2014922",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "23": {
+        "S.No": "23",
+        "Student Name": "Vidisha Srivastava",
+        "Roll Number": "2014940",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "24": {
+        "S.No": "24",
+        "Student Name": "Sachin Sajwan",
+        "Roll Number": "2015269",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "25": {
+        "S.No": "25",
+        "Student Name": "Gulshan Kumar",
+        "Roll Number": "2015502",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Marketing Intern",
+        "": ""
+    },
+    "26": {
+        "S.No": "26",
+        "Student Name": "Mukul Dhiman",
+        "Roll Number": "2014738",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "27": {
+        "S.No": "27",
+        "Student Name": "Raja",
+        "Roll Number": "2015263",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "28": {
+        "S.No": "28",
+        "Student Name": "Sanskar Gupta",
+        "Roll Number": "2015549",
+        "University Name": "GEU",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "29": {
+        "S.No": "29",
+        "Student Name": "Aditya Shah",
+        "Roll Number": "1918150",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "30": {
+        "S.No": "30",
+        "Student Name": "Aditya Shukla",
+        "Roll Number": "1918151",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "31": {
+        "S.No": "31",
+        "Student Name": "Akshat Mani Tripathi",
+        "Roll Number": "1918177",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "32": {
+        "S.No": "32",
+        "Student Name": "Amit Joshi",
+        "Roll Number": "1918204",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "33": {
+        "S.No": "33",
+        "Student Name": "Divyam Singh Rauthan",
+        "Roll Number": "1918334",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "34": {
+        "S.No": "34",
+        "Student Name": "Divyanshu Kumar",
+        "Roll Number": "1918835",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "35": {
+        "S.No": "35",
+        "Student Name": "Govind Singh Bhatia",
+        "Roll Number": "1918347",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "36": {
+        "S.No": "36",
+        "Student Name": "Hridayansh Sah",
+        "Roll Number": "1918026",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "37": {
+        "S.No": "37",
+        "Student Name": "Kamal Singh Gaira",
+        "Roll Number": "2018016",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "38": {
+        "S.No": "38",
+        "Student Name": "Kriti Dhingra",
+        "Roll Number": "1918430",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "39": {
+        "S.No": "39",
+        "Student Name": "Monika Pandey",
+        "Roll Number": "1918489",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "40": {
+        "S.No": "40",
+        "Student Name": "Neeraj Sharma",
+        "Roll Number": "1918503",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "41": {
+        "S.No": "41",
+        "Student Name": "Pranjali",
+        "Roll Number": "1918548",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "42": {
+        "S.No": "42",
+        "Student Name": "Priya Kumari",
+        "Roll Number": "1918560",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "43": {
+        "S.No": "43",
+        "Student Name": "Rahul Chamoli",
+        "Roll Number": "1918577",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "44": {
+        "S.No": "44",
+        "Student Name": "Rishabh Rawat",
+        "Roll Number": "1918600",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "45": {
+        "S.No": "45",
+        "Student Name": "Ritik Bhandari",
+        "Roll Number": "1918611",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "46": {
+        "S.No": "46",
+        "Student Name": "Ritik Verma",
+        "Roll Number": "1918614",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "47": {
+        "S.No": "47",
+        "Student Name": "Saransh Rawat",
+        "Roll Number": "1918662",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "48": {
+        "S.No": "48",
+        "Student Name": "Shiwansh Singh Bisht",
+        "Roll Number": "1918853",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "49": {
+        "S.No": "49",
+        "Student Name": "Sparsh Tripathi",
+        "Roll Number": "1918737",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "50": {
+        "S.No": "50",
+        "Student Name": "Yash Tariyal",
+        "Roll Number": "1918821",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "51": {
+        "S.No": "51",
+        "Student Name": "Mohit Bhatt",
+        "Roll Number": "1918481",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "52": {
+        "S.No": "52",
+        "Student Name": "Neha Chauhan",
+        "Roll Number": "1918505",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Female",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "53": {
+        "S.No": "53",
+        "Student Name": "Sandeep Singh Bisht",
+        "Roll Number": "1918656",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    },
+    "54": {
+        "S.No": "54",
+        "Student Name": "Shalwin Sah",
+        "Roll Number": "1918682",
+        "University Name": "GEHU, Dehradun",
+        "Course": "B-Tech",
+        "Gender": "Male",
+        "For Profile": "Software Developer Intern",
+        "": ""
+    }
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Interface</title>
+</head>
+<body>
+  <div class="ongc">
+    <h2>Enterprise Search</h2>
+    
+    <form action="/" method="post">
+      <!-- <label for="q">Search Here :</label> -->
+      <div class="inputBox">
+        <input type="text" autocomplete="off" required="required" id="q"  >
+        <span>TYPE A KEYWORD</span>
+      </div>
+      <input type="button" value="button" id="bt1" placeholder="Search" onclick="getData()">
+      <!-- <input type="submit" value="search"  >  -->
+      <br>
+    </form>
+    <div class="des">
+      <!-- <h3>Description:</h3><br> -->
+      <h4 style="color: rgb(247, 247, 8);">Netflix Data:-</h4>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+      <table border="1px" cellSpacing="0px" id="table">
+        <thead>
+          <tr>
+            <th id="a">Show Id</th>
+            <th id="b">Type</th>
+            <th id="c">Title</th>
+            <th id="d">Director</th>
+            <th id="d">Cast</th>
+            <th id="d">Country</th>
+            <th id="e">Date Added</th>
+            <th id="g">Release Year</th>
+            <th id="h">Rating</th>
+            <th id="i">Duration</th>
+            <th id="j">Listed - In</th>
+            <th id="k">Description</th>
+          </tr>
+          <tr id="t1"></tr>
+        </thead>
+      </table>
+      <br><br>
+      <h4 style="color: yellow;">Students Performance Data:-</h4>
+      <table border="1px" cellSpacing="0px" id="table2">
+        <thead>
+          <tr>
+            <th id="a2">Gender</th>
+            <th id="b2">Race</th>
+            <th id="c2">Lunch</th>
+            <th id="c2">fee</th>
+            <th id="c2">Status</th>
+            <th id="d2">Math Score</th>
+            <th id="e2">Reading Score</th>
+            <th id="g2">Writing Score</th>
+          </tr>
+
+        </thead>
+
+      </table>
+    </div>
+  </div>
+
+
+    <script>
+      const getData = async () => {
+        let val = document.getElementById("q").value;
+        let url = `http://localhost:9200/first/_search?q=${val}`;
+        let re= await fetch(url).then(res => {
+          let rep = res.json();
+          return rep
+        })
+        console.log(re.hits.hits)
+        function renderDataInTheTable(todos) {
+            const mytable = document.getElementById("table");
+            todos.forEach(todo => {
+                let newRow = document.createElement("tr");
+                Object.values(todo._source).forEach((value) => {
+                    let cell = document.createElement("td");
+                    cell.innerText = value;
+                    newRow.appendChild(cell);
+                })
+                mytable.appendChild(newRow);
+            });
+      }
+       renderDataInTheTable(re.hits.hits)
+
+       let url2 = `http://localhost:9200/performancedata/_search?q=${val}`;
+        let re2= await fetch(url2).then(res2 => {
+          let rep2 = res2.json();
+          return rep2
+        })
+        console.log(re2.hits.hits)
+        function renderDataInTheTable2(todos2) {
+            const mytable2 = document.getElementById("table2");
+            todos2.forEach(todo2 => {
+                let newRow2 = document.createElement("tr");
+                Object.values(todo2._source).forEach((value2) => {
+                    let cell2 = document.createElement("td");
+                    cell2.innerText = value2;
+                    newRow2.appendChild(cell2);
+                })
+                mytable2.appendChild(newRow2);
+            });
+      }
+       renderDataInTheTable2(re2.hits.hits)
+
+       
+    }
+    window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+    </script>
+</body>
+
+</html>

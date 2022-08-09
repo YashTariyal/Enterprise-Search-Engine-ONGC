@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+h2{
+    color: rgb(247, 247, 8);
+}
+#bt1{
+    padding: auto;
+    color: #333;
+}
+.ongc{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-clip: content-box;  
+    
+}
+.ongc h2{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-decoration: underline; */
+}
+.ongc form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.ongc .des{
+    padding: 100px;
+}
+.ongc .des h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+}
+#table,#table2{
+    width: 85vw;
+    margin-top: 10px;
+}
+th,td{
+    padding:5px;
+    text-align: center;
+}
+.inputBox 
+{
+	position: relative;
+	width: 250px;
+}
+.inputBox input 
+{
+	padding: 10px 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	width: 100%;
+	background: #0000;
+	border: 1px solid rgba(255,255,255,0.25);
+	color: #fff;
+	font-size: 1em;
+	transition: 0.5s;
+}
+.inputBox span 
+{
+	position: absolute;
+	left: 0;
+	padding: 10px 10px;
+	pointer-events: none;
+	font-size: 1em;
+    font-weight: bold;
+	transition: 0.5s;
+	text-transform: uppercase;
+	color: #fff;
+}
+.inputBox input:valid ~ span, 
+.inputBox input:focus ~ span 
+{
+	color: #00dfc4;
+	font-size: 0.65em;
+	transform: translateX(10px) translateY(-7px);
+	padding: 0 5px;
+	background: #1d2b3a;
+	border-left: 1px solid #00dfc4;
+	border-right: 1px solid #00dfc4;
+	letter-spacing: 0.2em;
+}
+.inputBox input:valid, 
+.inputBox input:focus 
+{
+	border: 1px solid #00dfc4;
+} 

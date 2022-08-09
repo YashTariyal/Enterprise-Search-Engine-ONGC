@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <!--<link rel= "stylesheet" type= "text/css" href= "style.css">-->
+    <title>Interface</title>
+    <style>
+      h2{
+        color: rgb(247, 247, 8);
+      }
+    </style>
+</head>
+<body>
+  <div class="ongc">
+   
+  
+    <div class="logo"></div>
+    <h2>ONGC Search Engine</h2>
+    <marquee direction="right" 
+    behavior="alternate" 
+    style="border:rgb(184, 255, 5) 2px SOLID ">
+    Serach Your Info on Netflix Titles and Student Performance.
+</marquee>
+    <form action="/" method="post">
+      <!-- <label for="q">Search Here :</label> -->
+      <input type="text" name="q" id="q" placeholder="Search Here" onkeyup="getData()" >
+      <!-- <input type="submit" value="search"  >  -->
+      <br>
+    </form>
+    <div class="des">
+      <h3 >Description:</h3><br>
+      <h4 style="color: rgb(247, 247, 8);">Netflix Data</h4>
+      
+      <table  border="1px" cellSpacing="0px" id="table">
+        <thead>
+        <tr>
+          <th id="a">Show Id</th>
+          <th id="b">Type</th>
+          <th id="c">Title</th>
+          <th id="d">Director</th>
+          <th id="e">Cast</th>
+          <th id="g">Release Year</th>
+          <th id="h">Rating</th>
+          <th id="i">Duration</th>
+          <th id="j">Listed - In</th>
+          <th id="k">Description</th>
+        </tr>
+        
+        </thead>
+       
+       </table>
+       
+       <br><br>
+       
+       <h4 style="color: yellow;">Students Performance Data</h3>
+
+        <table  border="1px" cellSpacing="0px" id="table2">
+          <thead>
+          <tr>
+            <th id="a2">Gender</th>
+            <th id="b2">Race</th>
+            <th id="c2">Lunch</th>
+            <th id="d2">Math Score</th>
+            <th id="e2">Reading Score</th>
+            <th id="g2">Writing Score</th>
+          </tr>
+          
+          </thead>
+         
+         </table>
+    </div>
+
+    <div class="div2" >
+     
+     </div>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      
+      
+     
+      const getData= async()=>{
+      let val=document.getElementById("q").value;
+      const table = document.getElementById("table");
+      const tblBody = document.createElement("tbody");
+      while (tblBody.firstChild) {
+      tblBody.removeChild(tblBody.lastChild);
+      }
+      let url = `http://localhost:9200/first/_search?q=${val}`;
+      let re = await fetch(url).then(res=>{
+        let rep = res.json();
+        return rep
+      })
+      data=re.hits.hits;
+
+             
+
+              for(let i=0; i<data.length; i++) {
+                const tableRow = document.createElement("tr");
+
+                  const cell1 = document.createElement("td");
+                  const cellText1 = document.createTextNode(data[i]["_source"]["title"]);
+                  cell1.appendChild(cellText1);
+                  
+                  const cell2 = document.createElement("td");
+                  const cellText2 = document.createTextNode(data[i]["_source"]["title"]);
+                  cell2.appendChild(cellText2);
+                  
+                  const cell3 = document.createElement("td");
+                  const cellText3 = document.createTextNode(data[i]["_source"]["Rating"]);
+                  cell3.appendChild(cellText3);
+                  
+                  const cell4 = document.createElement("td");
+                  const cellText4 = document.createTextNode(data[i]["_source"]["Realease Year"]);
+                  cell4.appendChild(cellText4);
+                  
+                  const cell5 = document.createElement("td");
+                  const cellText5 = document.createTextNode(data[i]["_source"]["User Rating Score"]);
+                  cell5.appendChild(cellText5);
+                  
+                  const cell6 = document.createElement("td");
+                  const cellText6 = document.createTextNode(data[i]["_source"]["User Rating Size"]);
+                  cell6.appendChild(cellText6);
+                  
+                  const cell7 = document.createElement("td");
+                  const cellText7 = document.createTextNode(data[i]["_source"]["Rating Level"]);
+                  cell7.appendChild(cellText7);
+                  
+      
+                  
+                  tableRow.appendChild(cell1);
+                  tableRow.appendChild(cell2);
+                  tableRow.appendChild(cell3);
+                  tableRow.appendChild(cell4);
+                  tableRow.appendChild(cell5);
+                  tableRow.appendChild(cell6);
+                  tableRow.appendChild(cell7);
+
+                tblBody.appendChild(tableRow);
+                table.appendChild(tblBody);
+              }
+                // table2
+                const table2 = document.getElementById("table2");
+                const tblBody2 = document.createElement("tbody");
+                let url2 = `http://localhost:9200/first/_search?q=${val}`;
+                let re2 = await fetch(url2).then(res2=>{
+                let rep2 = res2.json();
+                return rep2
+                })
+                data2=re2.hits.hits;
+                /*for(let i=0; i<data2.length; i++) {
+                const tableRow = document.createElement("tr");
+
+                  const cell1 = document.createElement("td");
+                  const cellText1 = document.createTextNode(data2[i]["_source"]["gender"]);
+                  cell1.appendChild(cellText1);
+                  
+                  const cell2 = document.createElement("td");
+                  const cellText2 = document.createTextNode(data2[i]["_source"]["race"]);
+                  cell2.appendChild(cellText2);
+                  
+                  const cell3 = document.createElement("td");
+                  const cellText3 = document.createTextNode(data2[i]["_source"]["lunch"]);
+                  cell3.appendChild(cellText3);
+                  
+                  const cell4 = document.createElement("td");
+                  const cellText4 = document.createTextNode(data2[i]["_source"]["math score"]);
+                  cell4.appendChild(cellText4);
+                  
+                  const cell5 = document.createElement("td");
+                  const cellText5 = document.createTextNode(data2[i]["_source"]["reading score"]);
+                  cell5.appendChild(cellText5);
+                  
+                  const cell6 = document.createElement("td");
+                  const cellText6 = document.createTextNode(data2[i]["_source"]["writing score"]);
+                  cell6.appendChild(cellText6);
+
+                  tableRow.appendChild(cell1);
+                  tableRow.appendChild(cell2);
+                  tableRow.appendChild(cell3);
+                  tableRow.appendChild(cell4);
+                  tableRow.appendChild(cell5);
+                  tableRow.appendChild(cell6);
+
+                  tblBody2.appendChild(tableRow);
+                table2.appendChild(tblBody2); */ 
+                for(let i=0; i<data.length; i++) {
+                const tableRow = document.createElement("tr");
+
+                  const cell1 = document.createElement("td");
+                  const cellText1 = document.createTextNode(data[i]["_source"]["_score"]);
+                  cell1.appendChild(cellText1);
+                  
+                  const cell2 = document.createElement("td");
+                  const cellText2 = document.createTextNode(data[i]["_source"]["title"]);
+                  cell2.appendChild(cellText2);
+                  
+                  const cell3 = document.createElement("td");
+                  const cellText3 = document.createTextNode(data[i]["_source"]["Rating"]);
+                  cell3.appendChild(cellText3);
+                  
+                  const cell4 = document.createElement("td");
+                  const cellText4 = document.createTextNode(data[i]["_source"]["Realease Year"]);
+                  cell4.appendChild(cellText4);
+                  
+                  const cell5 = document.createElement("td");
+                  const cellText5 = document.createTextNode(data[i]["_source"]["User Rating Score"]);
+                  cell5.appendChild(cellText5);
+                  
+                  const cell6 = document.createElement("td");
+                  const cellText6 = document.createTextNode(data[i]["_source"]["User Rating Size"]);
+                  cell6.appendChild(cellText6);
+                  
+                  const cell7 = document.createElement("td");
+                  const cellText7 = document.createTextNode(data[i]["_source"]["Rating Level"]);
+                  cell7.appendChild(cellText7);
+                  
+      
+                  
+                  tableRow.appendChild(cell1);
+                  tableRow.appendChild(cell2);
+                  tableRow.appendChild(cell3);
+                  tableRow.appendChild(cell4);
+                  tableRow.appendChild(cell5);
+                  tableRow.appendChild(cell6);
+                  tableRow.appendChild(cell7);
+
+                tblBody2.appendChild(tableRow);
+                table2.appendChild(tblBody2);
+                }
+
+              
+
+    }
+      
+
+    </script>
+   
+  </div>
+</body>
+</html>

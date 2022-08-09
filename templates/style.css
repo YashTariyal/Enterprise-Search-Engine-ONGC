@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+h2{
+    color: rgb(247, 247, 8);
+}
+#bt1{
+    padding: auto;
+    color: #333;
+}
+.ongc{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fsearch-engine-optimisation-seo-with-magnifying-glass-on-network-and-picture-id1306408892%3Fb%3D1%26k%3D20%26m%3D1306408892%26s%3D170667a%26w%3D0%26h%3DFPOj9199ftKIxxtMeQFJZDMQ0Hf-wxrTZm4fOPyN3UE%3D&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsearch-engine&tbnid=WUZLziDwrmKdGM&vet=12ahUKEwjihIS5ypP5AhXMi9gFHWvLBv0QMygFegUIARDWAQ..i&docid=QyY6B6cPCkjVZM&w=560&h=307&q=background%20image%20for%20search%20engine&ved=2ahUKEwjihIS5ypP5AhXMi9gFHWvLBv0QMygFegUIARDWAQ");
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-clip: content-box;  
+    
+}
+.ongc h2{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-decoration: underline; */
+}
+.ongc form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.ongc .des{
+    padding: 100px;
+}
+.ongc .des h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+}
+#table,#table2{
+    width: 85vw;
+    margin-top: 10px;
+}
+th,td{
+    padding:5px;
+    text-align: center;
+}
+.inputBox 
+{
+	position: relative;
+	width: 250px;
+}
+.inputBox input 
+{
+	padding: 10px 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	width: 100%;
+	background: #0000;
+	border: 1px solid rgba(255,255,255,0.25);
+	color: #fff;
+	font-size: 1em;
+	transition: 0.5s;
+}
+.inputBox span 
+{
+	position: absolute;
+	left: 0;
+	padding: 10px 10px;
+	pointer-events: none;
+	font-size: 1em;
+    font-weight: bold;
+	transition: 0.5s;
+	text-transform: uppercase;
+	color: #fff;
+}
+.inputBox input:valid ~ span, 
+.inputBox input:focus ~ span 
+{
+	color: #00dfc4;
+	font-size: 0.65em;
+	transform: translateX(10px) translateY(-7px);
+	padding: 0 5px;
+	background: #1d2b3a;
+	border-left: 1px solid #00dfc4;
+	border-right: 1px solid #00dfc4;
+	letter-spacing: 0.2em;
+}
+.inputBox input:valid, 
+.inputBox input:focus 
+{
+	border: 1px solid #00dfc4;
+} 
